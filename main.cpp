@@ -52,6 +52,7 @@ int main() {
 					Index += 1;
 
 					CircleShape circle(0.f);         //Start with 0 radius
+					circle.setFillColor(Color::Green);
 					circle.setOrigin({ 0.f, 0.f });
 					circle.setPosition(Vector2f(mouse->position));  //Set Circle Position to Mouse Position
 					circles.push_back(circle);
@@ -86,3 +87,4 @@ int main() {
 
 	}
 }
+
